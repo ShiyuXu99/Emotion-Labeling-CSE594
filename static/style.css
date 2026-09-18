@@ -33,7 +33,9 @@ progress::-moz-progress-bar { background: var(--teal); }
 .identity { color: var(--muted); font-size: 11px; text-align: right; }
 .identity code { display: block; margin-top: 3px; font-size: 11px; }
 .workspace { display: grid; grid-template-columns: minmax(0, 1fr) 365px; gap: 24px; align-items: start; }
-.tweet-panel, .controls { background: #fff; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.tweet-panel, .controls { background: #fff; border: 1px solid var(--line); border-radius: 12px; }
+.tweet-panel { overflow: hidden; }
+.task-heading { border-radius: 12px 12px 0 0; }
 .tweet-panel { min-height: 530px; display: flex; flex-direction: column; }
 .panel-heading { display: flex; justify-content: space-between; align-items: center; padding: 20px 28px; border-bottom: 1px solid var(--line); background: #faf9ff; }
 .panel-heading h2 { font-size: 14px; margin: 0; font-weight: 600; }
